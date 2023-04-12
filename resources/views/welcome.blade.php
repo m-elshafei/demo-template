@@ -14,16 +14,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- style css -->
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive-->
-    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- fevicon -->
-    <link rel="icon" href="/assets/images/fevicon.png" type="image/gif" />
+    <link rel="icon" href="assets/images/fevicon.png" type="image/gif" />
     <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="/assets/css/jquery.mCustomScrollbar.min.css">
-    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <!-- Tweaks for older IEs-->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
@@ -37,9 +37,9 @@
 
 <body class="main-layout">
     <!-- loader  -->
-    {{-- <div class="loader_bg">
-        <div class="loader"><img src="/assets/images/loading.gif" alt="#" /></div>
-    </div> --}}
+    <div class="loader_bg">
+        <div class="loader"><img src="assets/images/loading.gif" alt="#" /></div>
+    </div>
     <!-- end loader -->
     <!-- header -->
     <div class="header">
@@ -49,7 +49,7 @@
                     <div class="full">
                         <div class="center-desk">
                             <div class="logo">
-                                <a href="{{ url('/') }}">Zon</a>
+                                <a href="index.html">Zon</a>
                             </div>
                         </div>
                     </div>
@@ -63,23 +63,23 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                             <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="{{ url('/') }}">Home</a>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="index">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ url('about') }}">About</a>
+                                    <a class="nav-link" href="about">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ url('service') }}">Service</a>
+                                    <a class="nav-link" href="service">Service</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ url('testimonial') }}">Testimonial</a>
+                                    <a class="nav-link" href="testimonial">Testimonial</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ url('blog') }}">Blog</a>
+                                    <a class="nav-link" href="blog">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ url('contact') }}">Contact Us</a>
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" style="background: transparent;" href="Javascript:void(0)"><i
@@ -99,6 +99,9 @@
             </div>
         </div>
     </div>
+
+
+
     <!-- end header inner -->
     <!-- end header -->
     <!-- top -->
@@ -114,6 +117,9 @@
                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                             </ol>
+
+
+
                             <div class="carousel-inner">
                                 <!-- first slide -->
                                 <div class="carousel-item active">
@@ -203,6 +209,9 @@
                                     </div>
                                 </div>
                             </div>
+
+
+
                             <!-- controls -->
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
                                 data-slide="prev">
@@ -236,7 +245,7 @@
                         <p>sing 'Content here, content here', making it look like readable English. Many desktop
                             publishing packages and web page editors
                         </p>
-                        <a class="read_more" href="{{ url('about') }}">Read More</a>
+                        <a class="read_more" href="about.html">Read More</a>
                     </div>
                 </div>
             </div>
@@ -296,7 +305,7 @@
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <a class="read_more" href="{{ url('service') }}">Book Now Table</a>
+                    <a class="read_more" href="service.html">Book Now Table</a>
                 </div>
             </div>
         </div>
@@ -482,7 +491,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <a class="logo_bottom" href="{{ url('/') }}">Zon</a>
+                        <a class="logo_bottom" href="index.html">Zon</a>
                     </div>
                     <div class="col-md-12">
                         <form class="form_subscri">
@@ -503,12 +512,12 @@
                                 <div class="infoma text_align_left">
                                     <h3>Menu</h3>
                                     <ul class="menu_bottom">
-                                        <li><a href="{{ url('/') }}">Home</a></li>
-                                        <li><a href="{{ url('about') }}">About </a></li>
-                                        <li><a href="{{ url('serviec') }}">Coffee Serviec</a></li>
-                                        <li><a href="{{ url('testimonial') }}">Testimonial</a></li>
-                                        <li><a href="{{ url('blog') }}">Blog</a></li>
-                                        <li><a href="{{ url('contact') }}">Contact us</a></li>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About </a></li>
+                                        <li><a href="serviec.html">Coffee Serviec</a></li>
+                                        <li><a href="testimonial.html">Testimonial</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="contact.html">Contact us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -569,10 +578,10 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/jquery-3.0.0.min.js"></script>
     <!-- sidebar -->
-    <script src="assets/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.assets/js/1.8.1/baguetteBox.min.js"></script>
-    <script src="assets/assets/js/owl.carousel.min.js"></script>
-    <script src="assets/assets/js/custom.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
