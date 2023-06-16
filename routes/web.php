@@ -1,10 +1,12 @@
 <?php
 
+use Laravel\Fortify\Fortify;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\TestimonialController;
 
@@ -19,7 +21,12 @@ use App\Http\Controllers\TestimonialController;
 |
 */
 
+Route::get('/login', function () {
+    return view('welcome');
+});
+
 Route::resource('/', HomeController::class);
+Route::resource('home', HomeController::class);
 Route::resource('about', AboutController::class);
 Route::resource('blog', BlogController::class);
 Route::resource('contact', ContactController::class);
